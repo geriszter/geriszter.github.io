@@ -17,17 +17,14 @@ nav{
 }
 
 .wrapper {
-    border: 1px solid blue;
     width: 100%;
 }
-.div1 {
+.topLeft {
     display: inline-flex;
-    border: 1px solid red;
     float: left;
 }
-.div2 {
+.topRight {
     display:inline-flex;
-    border: 1px solid green;
     text-align: right;
     float: right;
     margin-top: 5px;
@@ -54,7 +51,7 @@ main{
     padding: 0px 1.0875rem 1.45rem;
 }
 
-#about{
+#intro{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -66,6 +63,14 @@ main{
 
 h1 {
     font-size: 50px;
-    margin: 0.67em 0px;
+    margin: 15px;
 }
 
+.commentStyle{
+    font-size: 25px;
+    color: rgb(128, 128, 128);
+}
+
+p{
+    font-size: 20px;
+}
