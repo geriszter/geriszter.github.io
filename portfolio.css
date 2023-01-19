@@ -19,6 +19,7 @@ nav{
 .wrapper {
     width: 100%;
 }
+
 .topLeft {
     display: inline-flex;
     float: left;
@@ -34,6 +35,11 @@ nav{
     font-size: 20px;
     font-weight: 500;
     margin-left: 25px;
+}
+
+.listItem:hover{
+    color: rgb(49, 130, 206);
+    cursor: pointer;
 }
 
 .name{
@@ -69,8 +75,59 @@ h1 {
 .commentStyle{
     font-size: 25px;
     color: rgb(128, 128, 128);
+    text-align: left;
 }
 
 p{
     font-size: 20px;
+}
+
+ul{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+li{
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.c1 {
+    display: inline-flex;
+    float: left;
+    margin-left: 25%;
+}
+.c2 {
+    display:inline-flex;
+    margin-left: 25%;
+}
+
+#projects{
+    margin-top: 120px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+h3{
+    margin-left: 45px;
+    font-size: 25px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    color: rgb(49, 130, 206);
+    cursor: pointer;
 }
